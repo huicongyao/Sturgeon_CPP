@@ -1,6 +1,6 @@
 # Sturgeon_CPP 高性能纳米孔测序Basecalling系统
 
-# ![C++](https://img.shields.io/badge/C++-17-blue?logo=c%2B%2B)![LibTorch](https://img.shields.io/badge/LibTorch-2.0.0-red)![CUDA](https://img.shields.io/badge/CUDA-11.7-green)![License](https://img.shields.io/badge/license-MIT-blue)
+# ![C++](https://img.shields.io/badge/C++-17-blue?logo=c%2B%2B)![LibTorch](https://img.shields.io/badge/LibTorch-2.0.0-red)![CUDA](https://img.shields.io/badge/CUDA-12.4-green)![License](https://img.shields.io/badge/license-MIT-blue)
 
 ### 概述
 Sturgeon_CPP 是一个基于 C++ 语言开发的高性能Basecalling工具，专注于将纳米孔 HDF5 测序数据文件转换为 FASTQ 格式的序列数据（Basecalling），助力生物信息学研究。该项目充分利用 C++ 的高效性能，结合多 GPU 并行推理和半精度推理技术，显著提升数据处理速度和效率。下图为软件架构（左）以及模型架构（右）。
