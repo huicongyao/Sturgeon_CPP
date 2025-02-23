@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
             .default_value(false)
             .implicit_value(true);
     basecaller.add_argument("-half")
-            .help("output moves")
+            .help("run model inference with half precision")
             .default_value(true)
             .implicit_value(false);
 
