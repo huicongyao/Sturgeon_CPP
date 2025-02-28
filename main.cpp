@@ -1,4 +1,3 @@
-#include "test2.hpp"
 #include "DataLoader/DataLoader.h"
 #include "CTC_Decoder/CTC_Decoder.h"
 #include "Model/basecall.h"
@@ -44,7 +43,7 @@ int main(int argc, char **argv) {
             .default_value(false)
             .implicit_value(true);
     basecaller.add_argument("-half")
-            .help("run model inference with half precision")
+            .help("whether use half precision for inference")
             .default_value(true)
             .implicit_value(false);
 
